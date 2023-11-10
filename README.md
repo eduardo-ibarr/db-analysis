@@ -1,3 +1,32 @@
+## Descrição do Banco de Dados
+
+### Visão Geral
+
+Este banco de dados foi projetado para simular uma plataforma de rede social, oferecendo uma estrutura para armazenar e analisar interações de usuários, posts, comentários, mensagens privadas e atividades diversas.
+
+### Estrutura do Banco de Dados
+
+- Tabela Users: Armazena informações sobre os usuários, incluindo ID do usuário, nome, e-mail, senha e timestamps de criação e atualização. O e-mail é único para cada usuário, garantindo que não haja duplicatas.
+
+- Tabela Posts: Contém posts feitos pelos usuários. Cada post está associado a um usuário através do user_id e inclui o conteúdo do post e timestamps.
+
+- Tabela Comments: Armazena comentários feitos nos posts. Cada comentário está vinculado a um post específico e a um usuário.
+
+- Tabela Interactions: Registra interações como curtidas e compartilhamentos em posts. Cada interação está relacionada a um usuário e a um post.
+
+- Tabela ActivityLogs: Fornece um log de atividades para cada usuário, detalhando as ações realizadas na plataforma.
+
+- Tabela Messages: Armazena mensagens trocadas entre usuários, facilitando a comunicação privada.
+
+### Views Criadas para Análise:
+
+- usersMostActive: Identifica os 10 usuários mais ativos com base no total de posts e comentários.
+- postEngageAnalysis: Analisa o engajamento médio (comentários, curtidas, compartilhamentos) por post.
+- trackPrivateConversations: Identifica conversas privadas com maior número de mensagens trocadas.
+- activityLogsAnalysis: Encontra usuários com a maior variedade de atividades registradas.
+- userEngageDetailedAnalysis: Destaca usuários com maior engajamento e atividade de postagem..
+- userDailyActivityAnalysis: Oferece um resumo das atividades diárias dos usuários
+
 ## Utilização
 
 Primeiramente, execute o comando contido no arquivo `database.sql` que vai criar o banco de dados.
