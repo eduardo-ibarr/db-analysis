@@ -18,10 +18,6 @@ SELECT * FROM activityLogsAnalysis;
 EXPLAIN ANALYZE
 SELECT * FROM userEngageDetailedAnalysis;
 
--- Análise da View reciprocalConversationsAnalysis
-EXPLAIN ANALYZE
-SELECT * FROM reciprocalConversationsAnalysis;
-
 -- Análise da View userDailyActivityAnalysis
 EXPLAIN ANALYZE
 SELECT * FROM userDailyActivityAnalysis;
