@@ -21,11 +21,8 @@ Este banco de dados foi projetado para simular uma plataforma de rede social, of
 ### Views Criadas para Análise:
 
 - usersMostActive: Identifica os 10 usuários mais ativos com base no total de posts e comentários.
-- postEngageAnalysis: Analisa o engajamento médio (comentários, curtidas, compartilhamentos) por post.
-- trackPrivateConversations: Identifica conversas privadas com maior número de mensagens trocadas.
-- activityLogsAnalysis: Encontra usuários com a maior variedade de atividades registradas.
-- userEngageDetailedAnalysis: Destaca usuários com maior engajamento e atividade de postagem..
-- userDailyActivityAnalysis: Oferece um resumo das atividades diárias dos usuários
+- userEngageDetailedAnalysis: Destaca usuários com maior engajamento e atividade de postagem.
+- userDailyActivityAnalysis: Oferece um resumo das atividades diárias dos usuários.
 
 ## Utilização
 
